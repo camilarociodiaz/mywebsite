@@ -272,7 +272,7 @@ svg:hover {
   margin-bottom: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+
 }
 
 
@@ -441,40 +441,21 @@ svg:hover {
 }
 
 /* Section: Contact*/
-#contact .header {
-  color: #A0A1A1;
-  font-size: 2rem;
-  margin-bottom: 3rem;
+
+#contact .buttonStyle {
+  background: #F0F0F3;
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+ 
 }
 
-#contact .container-fluid {
-  margin-top: 5rem;
+#contact .fa-envelope{
+  padding-right: 1rem;
 }
-
-.map-responsive {
-  position: relative;
-  overflow: hidden;
-  height: 0;
-  margin-bottom: 4rem;
-  padding-bottom: 70%;
-  border-radius: 0.25rem;
-}
-
-.btn-primary {
-  color: #E1CDFF;
-  background-color: #fafafa;
-  border-color: #E1CDFF;
-}
-
-.btn-primary:hover {
-  color: #E1CDFF;
-  background-color: rgba(137, 210, 220, 0.2);
-  border-color: #E1CDFF;
-}
-
-
-
-
 
 /* Media querys */
 
