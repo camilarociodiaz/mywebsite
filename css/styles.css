@@ -1,0 +1,632 @@
+/* colors palete 
+
+accent: #E1CDFF;
+white: #fafafa;
+light grey; #b3b3b3 ;
+grey: #A0A1A1 ;
+black: #020102 ;
+
+*/
+
+
+* {
+  Margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.body {
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+}
+
+.standard-p {
+  font-size: 1.1rem;
+  color: #b3b3b3;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+span {
+  color: #E1CDFF;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #fafafa;
+  margin-right: 10%;
+  font-size: 1.25rem;
+}
+
+.navbar-brand,
+.container-nav,
+.navbar-toggler,
+#title,
+#about,
+#education,
+#awards,
+#contact,
+#footer {
+  visibility: hidden;
+}
+
+/* Left NavBar */
+
+.container-nav {
+  position: fixed;
+  top: 30%;
+  left: 4%;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-nav li {
+  margin-bottom: 30px;
+}
+
+i {
+  color: #A0A1A1;
+}
+
+i:hover {
+  color: #E1CDFF;
+}
+
+svg{
+color: #A0A1A1;
+}
+
+svg:hover {
+  color: #E1CDFF;
+}
+
+
+/* Navbar header */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15% 20% 15%;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+
+
+/* Section: Title*/
+#title .container-fluid {
+  padding: 14% 15% 7%;
+}
+
+#title .principal {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  color: #A0A1A1;
+}
+
+#title .header {
+  font-size: 6rem;
+  color: #E1CDFF;
+  font-weight: bold;
+}
+
+#title .description {
+  color: #b3b3b3;
+  font-size: 2.5rem;
+}
+
+#title .paragraph {
+  position: relative;
+  top: 2rem;
+  width: 60%;
+}
+
+/* NavBar Top*/
+
+.navbar-brand {
+  color: #E1CDFF;
+  font-size: 2rem;
+  padding-left: 10%;
+}
+
+.img-logo {
+  width: 35px;
+  fill: #b3b3b3;
+}
+
+
+
+.fixed-top {
+  visibility: hidden;
+  opacity: 0.9;
+  background: #fafafa;
+  backdrop-filter: blur(500px);
+  box-shadow: -5px -5px 10px #FFFFFF, 0px 0px 10px rgba(174, 174, 192, 0.5);
+}
+
+.navbar-toggler {
+  visibility: visible;
+}
+
+.navbar-toggler {
+  padding:1rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/burguer.svg");
+}
+
+.navbar-toggler:hover{
+  text-decoration: none;
+  
+}
+
+.ul-style {
+  padding: 1rem;
+}
+
+.nav-a-style {
+  font-size: 1rem;
+  color: #A0A1A1;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 1rem;
+}
+
+.nav-a-style:hover {
+  color: #E1CDFF;
+}
+
+
+.buttonStyle {
+  background: #F0F0F3;
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.4), 4px 4px 8px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
+  border-radius: 20px;
+}
+
+.buttonStyle:hover {
+  background: #F0F0F3;
+  box-shadow: inset 5px 5px 4px rgba(174, 174, 192, 0.2), inset -5px -5px 4px rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+}
+
+/* Section: About*/
+
+#about .paragraph {
+  width: 97%;
+}
+
+#about img {
+  margin-left: 15%;
+  width: 75%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgb(255 255 255 / 90%), 5px 5px 12px rgb(174 174 192 / 50%), inset 2px 2px 4px rgb(0 0 0 / 90%), inset 2px 2px 4px #ffff
+}
+
+#about .subtittle {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  visibility: visible;
+  color: #A0A1A1;
+}
+
+#about li {
+  color: #A0A1A1;
+
+}
+
+
+ /* Section: portfolio */
+
+  #portfolio .cardFather {
+    display: grid;
+  gap: 1rem;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+}
+
+#portfolio .cardContainer {
+  padding: 2rem;
+  background: #fffffffd;
+  box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+
+#portfolio .chipContainer {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+#portfolio .chip{
+  font-size: 0.8rem;
+  color: #fafafa;
+  background: #A0A1A1;
+  text-align: center;
+  place-content: center;
+  justify-content: center;
+  align-content: center;
+  padding: 5px 15px 5px 15px ;
+  margin: 8px;
+  width: fit-content;
+  border-radius: 15px;
+  box-shadow: 2px 3px 13px #ffffff, 2px 3px 5px rgb(174 174 192 / 50%)
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1rem;
+}
+
+
+ 
+/* Section: work experience */
+
+#workExperience .title {
+  padding-left: 15%;
+}
+
+#workExperience .container-fluid {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0%;
+}
+
+#workExperience .cardContainer {
+  padding: 2rem;
+  background: #fffffffd;
+  box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+  border-radius: 15px;
+  margin: 2rem;
+  width: 85%;
+
+}
+
+#workExperience .description {
+  font-size: 1.2rem;
+}
+
+#workExperience .descriptionExp {
+  color: #A0A1A1;
+}
+
+/* Section: Education*/
+#education .imgLogo {
+  width: 8rem;
+  padding: 1rem;
+}
+
+#education .container-fluid {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0%;
+}
+
+#education .cardContainer {
+  padding: 2rem;
+  background: #fffffffd;
+  box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+  border-radius: 15px;
+  margin: 2rem;
+  width: 85%;
+}
+
+#education .headerTwo {
+  font-size: 1.5rem;
+  color: #020102;
+  font-weight: bold;
+}
+
+#education .description {
+  color: #A0A1A1;
+  font-size: 1.375rem;
+  font-weight: 200;
+  margin-top: 0.5rem;
+}
+
+#education .row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+/* Section: Awards*/
+
+#awards img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.buttonStyleAwards {
+  background: rgb(240, 240, 243);
+  box-shadow: rgb(255 255 255 / 40%) -5px -5px 5px, rgb(174 174 192 / 20%) 4px 4px 8px, rgb(0 0 0 / 10%) -2px -2px 4px inset, rgb(255 255 255) 2px 2px 4px inset;
+  color: rgb(160, 161, 161);
+  text-align: center;
+  place-content: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.descriptionAwards {
+  font-size: 0.9rem;
+  color: #020102;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.headerTwo {
+  font-size: 2rem;
+  color: #020102;
+  font-weight: bold;
+}
+
+#awards .container-fluid {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0%;
+}
+
+.cardContainer {
+  padding: 2rem;
+  background: #fffffffd;
+  box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+  border-radius: 15px;
+  margin: 2rem;
+}
+
+.cardChildren {
+  display: inline-flex;
+  align-items: baseline;
+  flex-direction: row;
+  align-content: center;
+}
+
+#awards .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#awards .imgLogo {
+  width: 8rem;
+  padding: 1rem;
+}
+
+/* Section: Contact*/
+#contact .header {
+  color: #A0A1A1;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+#contact .container-fluid {
+  margin-top: 5rem;
+}
+
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  margin-bottom: 4rem;
+  padding-bottom: 70%;
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  color: #E1CDFF;
+  background-color: #fafafa;
+  border-color: #E1CDFF;
+}
+
+.btn-primary:hover {
+  color: #E1CDFF;
+  background-color: rgba(137, 210, 220, 0.2);
+  border-color: #E1CDFF;
+}
+
+
+
+
+
+/* Media querys */
+
+@media (max-width: 600px) {
+
+  /* Section: Title*/
+
+  #title .container-fluid {
+    margin-top: 80px;
+    padding: 1rem;
+  }
+
+  #title .principal {
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+    color: #A0A1A1;
+  }
+
+  #title .header {
+    font-size: 3rem;
+    color: #E1CDFF;
+    font-weight: bold;
+  }
+
+  #title .description {
+    color: #b3b3b3;
+    font-size: 1.6rem;
+  }
+
+  #title .paragraph .standard-p {
+    font-size: 1rem;
+    justify-content: center;
+  }
+
+  #title .standard-p {
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+  /* Section: work experience */
+
+  #workExperience .container-fluid {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+  }
+
+  #workExperience .cardContainer {
+    padding: 2rem;
+    background: #fffffffd;
+    box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+    border-radius: 15px;
+    margin: 1rem;
+    width: 100%;
+
+  }
+
+  #workExperience .headerTwo {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+
+  #workExperience .description {
+    font-size: 0.9rem;
+  }
+
+  /* Section: Education*/
+  #education .imgLogo {
+    width: 6rem;
+    padding: 1rem;
+  }
+
+  #education .container-fluid {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+  }
+
+  #education .cardContainer {
+    padding: 2rem;
+    background: #fffffffd;
+    box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+    border-radius: 15px;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  /* Section: Awards*/
+
+  #awards img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .buttonStyleAwards {
+    background: rgb(240, 240, 243);
+    box-shadow: rgb(255 255 255 / 40%) -5px -5px 5px, rgb(174 174 192 / 20%) 4px 4px 8px, rgb(0 0 0 / 10%) -2px -2px 4px inset, rgb(255 255 255) 2px 2px 4px inset;
+    color: rgb(160, 161, 161);
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .descriptionAwards {
+    font-size: 0.7rem;
+    color: #020102;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+
+  .headerTwo {
+    font-size: 1.5rem;
+    color: #020102;
+    font-weight: bold;
+  }
+
+  #awards .container-fluid {
+    padding: 1.2rem;
+  }
+
+  .cardContainer {
+    padding: 2rem;
+    background: #fffffffd;
+    box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+    border-radius: 15px;
+    margin: 1rem;
+  }
+
+
+  #awards .imgLogo {
+    width: 5rem;
+    padding: 0.8rem;
+  }
+
+
+  /* Section: Portfolio */ 
+
+
+  #portfolio .cardContainer {
+    padding: 2rem;
+    background: #fffffffd;
+    box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+    border-radius: 15px;
+    margin: 1rem;
+    width: fit-content;
+  }
+}
+
