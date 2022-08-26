@@ -1,6 +1,7 @@
 /* colors palete 
 
 accent: #E1CDFF;
+accent two: #A5A6F6;
 white: #fafafa;
 light grey; #b3b3b3 ;
 grey: #A0A1A1 ;
@@ -31,13 +32,13 @@ p {
 
 .standard-p {
     font-size: 1.1rem;
-    color: #b3b3b3;
+    color: #A0A1A1 ;
     text-align: justify;
     margin-bottom: 1.5rem;
 }
 
 span {
-    color: #E1CDFF;
+    color: #A5A6F6;
     font-weight: bold;
 }
 
@@ -85,7 +86,7 @@ i {
 }
 
 i:hover {
-    color: #E1CDFF;
+    color: #A5A6F6;
 }
 
 svg {
@@ -93,7 +94,7 @@ svg {
 }
 
 svg:hover {
-    color: #E1CDFF;
+    color: #A5A6F6;
 }
 
 
@@ -114,6 +115,7 @@ svg:hover {
 .title {
     font-size: 2rem;
     line-height: 4rem;
+    color: #161616;
 }
 
 
@@ -131,12 +133,12 @@ svg:hover {
 
 #title .header {
     font-size: 6rem;
-    color: #E1CDFF;
+    color: #A5A6F6;
     font-weight: bold;
 }
 
 #title .description {
-    color: #b3b3b3;
+    color: #A0A1A1 ;;
     font-size: 2.5rem;
 }
 
@@ -150,14 +152,14 @@ svg:hover {
 /* NavBar Top*/
 
 .navbar-brand {
-    color: #E1CDFF;
+    color: #A5A6F6;
     font-size: 2rem;
     padding-left: 10%;
 }
 
 .img-logo {
     width: 35px;
-    fill: #b3b3b3;
+    fill: #A0A1A1 ;;
 }
 
 .fixed-top {
@@ -204,7 +206,7 @@ svg:hover {
 }
 
 .nav-a-style:hover {
-    color: #E1CDFF;
+    color: #A5A6F6;
 }
 
 .buttonStyle {
@@ -238,7 +240,7 @@ svg:hover {
     line-height: 3rem;
     margin-top: 2rem;
     visibility: visible;
-    color: #A0A1A1;
+    color: #A5A6F6;
 }
 
 #about li {
@@ -252,6 +254,7 @@ svg:hover {
     display: grid;
     grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    align-items: baseline;
 }
 
 #portfolio .cardContainer {
@@ -298,6 +301,11 @@ svg:hover {
     padding: 0.2rem;
     font-weight: bold;
     padding-top: 1rem;
+    color: #161616;
+}
+
+#portfolio .standard-p{
+    justify-content: left;
 }
 
 
@@ -357,7 +365,7 @@ svg:hover {
 
 #education .headerTwo {
     font-size: 1.5rem;
-    color: #020102;
+    color: #161616;
     font-weight: bold;
 }
 
@@ -397,14 +405,14 @@ svg:hover {
 
 .descriptionAwards {
     font-size: 0.9rem;
-    color: #020102;
+    color: #161616;
     opacity: 0.7;
     margin-bottom: 1rem;
 }
 
 .headerTwo {
     font-size: 2rem;
-    color: #020102;
+    color: #161616;
     font-weight: bold;
 }
 
@@ -473,11 +481,11 @@ svg:hover {
     }
     #title .header {
         font-size: 3rem;
-        color: #E1CDFF;
+        color: #A5A6F6;
         font-weight: bold;
     }
     #title .description {
-        color: #b3b3b3;
+        color: #A0A1A1 ;;
         font-size: 1.6rem;
     }
     #title .paragraph .standard-p {
@@ -548,13 +556,13 @@ svg:hover {
     }
     .descriptionAwards {
         font-size: 0.7rem;
-        color: #020102;
+        color: #161616;
         opacity: 0.7;
         margin-bottom: 1rem;
     }
     .headerTwo {
         font-size: 1.5rem;
-        color: #020102;
+        color: #161616;
         font-weight: bold;
     }
     #awards .container-fluid {
@@ -580,4 +588,13 @@ svg:hover {
         margin: 1rem;
         width: fit-content;
     }
+
+
+    #portfolio .container-fluid {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.2rem;
+    }
+
 }
