@@ -7,6 +7,8 @@ light grey; #b3b3b3 ;
 grey: #A0A1A1 ;
 black: #020102 ;
 
+new grey: #707171; 
+
 */
 
 * {
@@ -32,7 +34,7 @@ p {
 
 .standard-p {
     font-size: 1.1rem;
-    color: #A0A1A1;
+    color: #707171;
     text-align: justify;
     margin-bottom: 1.5rem;
 }
@@ -82,7 +84,7 @@ input::placeholder {
 }
 
 i {
-    color: #A0A1A1;
+    color: #707171;
 }
 
 i:hover {
@@ -90,7 +92,7 @@ i:hover {
 }
 
 svg {
-    color: #A0A1A1;
+    color: #707171;
 }
 
 svg:hover {
@@ -128,7 +130,7 @@ svg:hover {
 #title .principal {
     font-family: "Montserrat";
     font-size: 1.5rem;
-    color: #A0A1A1;
+    color: #707171;
 }
 
 #title .header {
@@ -138,7 +140,7 @@ svg:hover {
 }
 
 #title .description {
-    color: #A0A1A1;
+    color: #707171;
     ;
     font-size: 2.5rem;
 }
@@ -160,7 +162,7 @@ svg:hover {
 
 .img-logo {
     width: 35px;
-    fill: #A0A1A1;
+    fill: #707171;
     ;
 }
 
@@ -198,7 +200,7 @@ svg:hover {
 
 .nav-a-style {
     font-size: 1rem;
-    color: #A0A1A1;
+    color: #707171;
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -246,7 +248,7 @@ svg:hover {
 }
 
 #about li {
-    color: #A0A1A1;
+    color: #707171;
 }
 
 
@@ -338,7 +340,7 @@ svg:hover {
 }
 
 #workExperience .descriptionExp {
-    color: #A0A1A1;
+    color: #707171;
 }
 
 
@@ -372,7 +374,7 @@ svg:hover {
 }
 
 #education .description {
-    color: #A0A1A1;
+    color: #707171;
     font-size: 1.375rem;
     font-weight: 200;
     margin-top: 0.5rem;
@@ -479,7 +481,7 @@ svg:hover {
     #title .principal {
         font-family: "Montserrat";
         font-size: 1.1rem;
-        color: #A0A1A1;
+        color: #707171;
     }
     #title .header {
         font-size: 3rem;
@@ -487,7 +489,7 @@ svg:hover {
         font-weight: bold;
     }
     #title .description {
-        color: #A0A1A1;
+        color: #707171;
         ;
         font-size: 1.6rem;
     }
